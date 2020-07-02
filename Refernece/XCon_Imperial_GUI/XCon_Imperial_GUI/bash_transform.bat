@@ -1,0 +1,1 @@
+python -m PyQt5.uic.pyuic -x xcon_imperial.ui -o XCon_Imperial_GUI.py

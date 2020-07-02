@@ -1,0 +1,60 @@
+[0702/211808.290:ERROR:icu_util.cc(173)] Invalid file descriptor to ICU data received.
+[0702/211808.292:FATAL:icu_util.cc(292)] Check failed: result. 
+Backtrace:
+	GetHandleVerifier [0x00007FF6C711AF15+23093]
+	GetHandleVerifier [0x00007FF6C718AFD3+482035]
+	(No symbol) [0x00007FF6C7112B64]
+	(No symbol) [0x00007FF6C7111BA3]
+	(No symbol) [0x00007FF6C6E68DCC]
+	IsSandboxedProcess [0x00007FF6CA0DF4F7+46632355]
+	BaseThreadInitThunk [0x00007FFF4E317BD4+20]
+	RtlUserThreadStart [0x00007FFF505ACE51+33]
+
+[0702/211835.024:ERROR:icu_util.cc(173)] Invalid file descriptor to ICU data received.
+[0702/211835.025:FATAL:icu_util.cc(292)] Check failed: result. 
+Backtrace:
+	GetHandleVerifier [0x00007FF6C711AF15+23093]
+	GetHandleVerifier [0x00007FF6C718AFD3+482035]
+	(No symbol) [0x00007FF6C7112B64]
+	(No symbol) [0x00007FF6C7111BA3]
+	(No symbol) [0x00007FF6C6E68DCC]
+	IsSandboxedProcess [0x00007FF6CA0DF4F7+46632355]
+	BaseThreadInitThunk [0x00007FFF4E317BD4+20]
+	RtlUserThreadStart [0x00007FFF505ACE51+33]
+
+[0702/211857.757:ERROR:icu_util.cc(173)] Invalid file descriptor to ICU data received.
+[0702/211857.759:FATAL:icu_util.cc(292)] Check failed: result. 
+Backtrace:
+	GetHandleVerifier [0x00007FF6C711AF15+23093]
+	GetHandleVerifier [0x00007FF6C718AFD3+482035]
+	(No symbol) [0x00007FF6C7112B64]
+	(No symbol) [0x00007FF6C7111BA3]
+	(No symbol) [0x00007FF6C6E68DCC]
+	IsSandboxedProcess [0x00007FF6CA0DF4F7+46632355]
+	BaseThreadInitThunk [0x00007FFF4E317BD4+20]
+	RtlUserThreadStart [0x00007FFF505ACE51+33]
+
+[0702/212207.119:ERROR:icu_util.cc(173)] Invalid file descriptor to ICU data received.
+[0702/212207.120:FATAL:icu_util.cc(292)] Check failed: result. 
+Backtrace:
+	GetHandleVerifier [0x00007FF6C711AF15+23093]
+	GetHandleVerifier [0x00007FF6C718AFD3+482035]
+	(No symbol) [0x00007FF6C7112B64]
+	(No symbol) [0x00007FF6C7111BA3]
+	(No symbol) [0x00007FF6C6E68DCC]
+	IsSandboxedProcess [0x00007FF6CA0DF4F7+46632355]
+	BaseThreadInitThunk [0x00007FFF4E317BD4+20]
+	RtlUserThreadStart [0x00007FFF505ACE51+33]
+
+[0702/212225.805:ERROR:icu_util.cc(173)] Invalid file descriptor to ICU data received.
+[0702/212225.807:FATAL:icu_util.cc(292)] Check failed: result. 
+Backtrace:
+	GetHandleVerifier [0x00007FF6C711AF15+23093]
+	GetHandleVerifier [0x00007FF6C718AFD3+482035]
+	(No symbol) [0x00007FF6C7112B64]
+	(No symbol) [0x00007FF6C7111BA3]
+	(No symbol) [0x00007FF6C6E68DCC]
+	IsSandboxedProcess [0x00007FF6CA0DF4F7+46632355]
+	BaseThreadInitThunk [0x00007FFF4E317BD4+20]
+	RtlUserThreadStart [0x00007FFF505ACE51+33]
+
