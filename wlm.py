@@ -68,6 +68,8 @@ class hf_wlm(object):
             return wavelengths[channel-1] + channel * random.uniform(0,0.0001)
 
     def get_frequency(self, channel=1):
+        # if channel<0 or channel>8:
+        #    warning.warn('channel out of range')
         if not self.debug:
             return self.dll.GetFrequencyNum(ctypes.c_long(channel), ctypes.c_double(0))
         else:
