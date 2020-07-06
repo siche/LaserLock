@@ -4,11 +4,10 @@ import time
 
 # configuration for lasers
 label = '935'
-ip= '192.168.1.8'
-des_fre = 398.912100
+ip= '192.168.1.4'
+des_fre = 398.910950
 channel = 3
 
-# storage voltage and wavelength
 data_len = 1200
 time_interval = 0.05
 wlm_data = [None]*data_len
@@ -33,6 +32,7 @@ while True:
     # update data
     wlm_temp = wlm.get_wavelength(channel)
     wlm_data = wlm_data[1:]+[wlm_temp]
+    print('Wavelength is %fnm' % wlm_temp)
 
     # STOP when laser or wavemeter is off
     if (wlm_temp < 0 or not laser.status):
@@ -50,7 +50,7 @@ while True:
 
     new_vol =  delta_vol + vol_temp
     laser.set_voltage(new_vol)
-    time.sleep(time_interval*40)
+    time.sleep(time_interval*10)
     # pid
 
 print('laser or wavelengthmeter turned off')

@@ -5,7 +5,7 @@ import time
 # configuration for lasers
 label = '935'
 ip= '192.168.1.9'
-des_fre = 935.180200
+des_fre = 935.188937
 channel = 4
 
 # storage voltage and wavelength
@@ -51,7 +51,7 @@ while True:
 
     new_vol =  delta_vol + vol_temp
     laser.set_voltage(new_vol)
-    time.sleep(time_interval*40)
+    time.sleep(time_interval*10)
     # pid
 
 print('laser or wavelengthmeter turned off')
